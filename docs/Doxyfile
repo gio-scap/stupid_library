@@ -40,6 +40,11 @@ HTML_EXTRA_STYLESHEET  = doxygen-custom/doxygen-awesome.css \
 HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5
 
 HTML_TIMESTAMP         = NO
+
+# diagram graphviz options
+HAVE_DOT = YES
+DOT_IMAGE_FORMAT = svg
+DOT_TRANSPARENT = YES
 # adding header extension
 HTML_HEADER            = doxygen-custom/header.html
 
