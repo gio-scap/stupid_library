@@ -7,7 +7,7 @@
 # Project related configuration options
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING       = UTF-8
-PROJECT_NAME            = "Project_NAME"
+PROJECT_NAME            = "Stupid Library"
 PROJECT_NUMBER          = 1.0
 PROJECT_BRIEF           = "this is a stupid library"
 PROJECT_LOGO            =
@@ -35,7 +35,7 @@ HTML_EXTRA_STYLESHEET  = doxygen-custom/doxygen-awesome.css \
                          doxygen-custom/custom.css \
                          doxygen-custom/doxygen-awesome-sidebar-only.css \
                          doxygen-custom/doxygen-awesome-sidebar-only-darkmode-toggle.css \
-                         doxygen-custom/custom-alternative.css
+                         #doxygen-custom/custom-alternative.css
 
 HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5
 

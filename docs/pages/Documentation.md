@@ -14,6 +14,10 @@ using the Doxygen Documentation extentions.
 ## Nice looking doxygen: Doxygen Awesome
 https://jothepro.github.io/doxygen-awesome-css
 
+copy all the file inside the repo docs to reuse this template.
+- color can be changed inside 'doxygen-custom/custom-alternatice.css'
+- update the link of the github icon inside doxygen-custom/header.html
+
 ## automatically build documentation and post on github pages
 
 - this require the repo to be public, or to have a pro github account
@@ -22,3 +26,4 @@ https://jothepro.github.io/doxygen-awesome-css
 - use this settings for the repo:
 
 ![settings repo pages](docs/img/repo_settings.png)
+
