@@ -11,7 +11,7 @@
 <g id="clust1" class="cluster">
 <title>clusterdir_68267d1309a1af8e8297ef4c3efbcdba</title>
 <g id="a_clust1"><a xlink:href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" target="_top">
-<polygon fill="#edf0f7" stroke="#404040" stroke-width="2" points="8,-47.25 8,-82.5 145,-82.5 145,-47.25 8,-47.25"/>
+<polygon fill="#daedff" stroke="#404040" stroke-width="2" points="8,-47.25 8,-82.5 145,-82.5 145,-47.25 8,-47.25"/>
 </a>
 </g>
 </g>
@@ -24,7 +24,7 @@
 <g id="node2" class="node">
 <title>dir_92bb37ca6a3a8b64e7cd2b4ae806979b</title>
 <g id="a_node2"><a xlink:href="dir_92bb37ca6a3a8b64e7cd2b4ae806979b.html" target="_top" xlink:title="stupid_library">
-<polygon fill="#a2b4d6" stroke="#404040" points="89.5,-74.5 16.5,-74.5 16.5,-55.25 89.5,-55.25 89.5,-74.5"/>
+<polygon fill="#4ea9ff" stroke="#404040" points="89.5,-74.5 16.5,-74.5 16.5,-55.25 89.5,-55.25 89.5,-74.5"/>
 <text text-anchor="middle" x="53" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">stupid_library</text>
 </a>
 </g>
@@ -33,7 +33,7 @@
 <g id="node3" class="node">
 <title>dir_d44c64559bbebec7f509842c48db8b23</title>
 <g id="a_node3"><a xlink:href="dir_d44c64559bbebec7f509842c48db8b23.html" target="_top" xlink:title="include">
-<polygon fill="#edf0f7" stroke="red" points="76.38,-19.25 29.62,-19.25 29.62,0 76.38,0 76.38,-19.25"/>
+<polygon fill="#daedff" stroke="red" points="76.38,-19.25 29.62,-19.25 29.62,0 76.38,0 76.38,-19.25"/>
 <text text-anchor="middle" x="53" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">include</text>
 </a>
 </g>
