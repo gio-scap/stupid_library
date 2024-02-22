@@ -31,9 +31,9 @@ jobs:
       uses: mattnotmitt/doxygen-action@edge
       with:
           working-directory: 'docs'
- - name: Deploy to GitHub Pages
-      uses: Cecilapp/GitHub-Pages-deploy@v3
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        build_dir: ./docs/html
+    - name: Deploy to GitHub Pages
+          uses: Cecilapp/GitHub-Pages-deploy@v3
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            build_dir: ./docs/html
