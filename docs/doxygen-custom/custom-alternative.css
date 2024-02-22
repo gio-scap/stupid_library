@@ -31,6 +31,9 @@ html {
 
     --toc-background: rgb(243, 240, 252);
     --toc-foreground: var(--page-foreground-color);
+
+    --github-button-bakcground: white;
+    --github-button-textc: #dc3545;
 }
 
 html.dark-mode {
@@ -50,5 +53,7 @@ html.dark-mode {
     --side-nav-foreground: #F1FDFF;
     --toc-background: #20142C;
     --searchbar-background: var(--page-background-color);
+    --github-button-bakcground: #dc3545;
+    --github-button-textc: white;
 
 }

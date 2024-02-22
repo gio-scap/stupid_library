@@ -34,7 +34,7 @@ FULL_SIDEBAR           = NO
 HTML_EXTRA_STYLESHEET  = doxygen-custom/doxygen-awesome.css \
                          doxygen-custom/custom.css \
                          doxygen-custom/doxygen-awesome-sidebar-only.css \
-                         
+                         doxygen-custom/github-button.css\
                          doxygen-custom/custom-alternative.css  # uncomment to use alternative style
 
 HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5

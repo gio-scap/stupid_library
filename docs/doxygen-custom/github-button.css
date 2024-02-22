@@ -1,0 +1,38 @@
+.custom-button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: var(--github-button-bakcground);
+    color: var(--github-button-textc);
+    border: 2px solid #dc3545;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+}
+
+.custom-button:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.custom-button svg {
+    margin-right: 5px;
+    fill: var(--github-button-textc);
+}
+
+/* Set SVG fill color */
+.custom-button:hover {
+    fill: #ffffff;
+}
+
+.custom-button:hover svg {
+    fill: #ffffff;
+}

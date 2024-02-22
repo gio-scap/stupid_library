@@ -33,6 +33,7 @@ FULL_SIDEBAR           = NO
 
 HTML_EXTRA_STYLESHEET  = doxygen-custom/doxygen-awesome.css \
                          doxygen-custom/custom.css \
+                        doxygen-custom/github-button.css\
                          doxygen-custom/doxygen-awesome-sidebar-only.css \
                          doxygen-custom/doxygen-awesome-sidebar-only-darkmode-toggle.css \
                          doxygen-custom/custom-alternative.css  # uncomment to use alternative style

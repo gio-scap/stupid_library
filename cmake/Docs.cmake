@@ -6,7 +6,7 @@ if(DOXYGEN_FOUND)
     message("doxygen  found ")
     add_custom_target( # this create target that are not code but utility
         docs
-        ${DOXYGEN_EXECUTABLE} Doxyfile_local
+        ${DOXYGEN_EXECUTABLE} Doxyfile
         WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/docs  
     )
 
