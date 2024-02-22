@@ -13,3 +13,12 @@ using the Doxygen Documentation extentions.
 
 ## Nice looking doxygen: Doxygen Awesome
 https://jothepro.github.io/doxygen-awesome-css
+
+## automatically build documentation and post on github pages
+
+- this require the repo to be public, or to have a pro github account
+- use the github action in the ./github/workflow/Documentations
+- create a branch named 'gh-pages'
+- use this settings for the repo:
+
+![settings repo pages](docs/img/repo_settings.png)
