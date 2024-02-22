@@ -9,7 +9,7 @@
 DOXYFILE_ENCODING       = UTF-8
 PROJECT_NAME            = "Stupid Library"
 PROJECT_NUMBER          = 1.0
-PROJECT_BRIEF           = "this is a stupid library"
+PROJECT_BRIEF           = "this is a stupid library, local doc"
 PROJECT_LOGO            =
 OUTPUT_DIRECTORY        = ./
 OUTPUT_LANGUAGE         = English
@@ -34,7 +34,7 @@ FULL_SIDEBAR           = NO
 HTML_EXTRA_STYLESHEET  = doxygen-custom/doxygen-awesome.css \
                          doxygen-custom/custom.css \
                          doxygen-custom/doxygen-awesome-sidebar-only.css \
-                         doxygen-custom/doxygen-awesome-sidebar-only-darkmode-toggle.css \
+                         
                          doxygen-custom/custom-alternative.css  # uncomment to use alternative style
 
 HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5
@@ -46,10 +46,9 @@ HAVE_DOT = YES
 DOT_IMAGE_FORMAT = svg
 DOT_TRANSPARENT = YES
 # adding header extension
-HTML_HEADER            = doxygen-custom/header.html
+HTML_HEADER            = doxygen-custom/header_local.html
 
-HTML_EXTRA_FILES       = doxygen-custom/doxygen-awesome-darkmode-toggle.js \
-                         doxygen-custom/doxygen-awesome-fragment-copy-button.js \
+HTML_EXTRA_FILES       = doxygen-custom/doxygen-awesome-fragment-copy-button.js \
                          doxygen-custom/doxygen-awesome-paragraph-link.js \
                          doxygen-custom/doxygen-awesome-interactive-toc.js \
                          doxygen-custom/doxygen-awesome-tabs.js
