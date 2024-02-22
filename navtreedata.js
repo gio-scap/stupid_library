@@ -24,8 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Project_NAME", "index.html", [
-    [ "Stupid Library", "index.html", null ],
+  [ "Stupid Library", "index.html", [
     [ "Create Documentation", "md_pages_2Documentation.html", [
       [ "Nice looking doxygen: Doxygen Awesome", "md_pages_2Documentation.html#autotoc_md3", null ],
       [ "automatically build documentation and post on github pages", "md_pages_2Documentation.html#autotoc_md4", null ]
