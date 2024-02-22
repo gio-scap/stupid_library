@@ -26,14 +26,20 @@ jobs:
     # - name: building
     #   run: |
     #     cmake --build build --config Debug --target docs -j4
-   
+    # - name: Deploy to GitHub Pages
+    #   uses: Cecilapp/GitHub-Pages-deploy@v3
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   with:
+    #     build_dir: ./docs/html
     - name: Generate Documentation
       uses: mattnotmitt/doxygen-action@edge
       with:
           working-directory: 'docs'
-    - name: Deploy to GitHub Pages
-          uses: Cecilapp/GitHub-Pages-deploy@v3
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            build_dir: ./docs/html
+    - name: Publish generated content to GitHub Pages
+      uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
+      with:
+         dir: docs/html
+         branch: gh-pages
+         token: ${{ secrets.ACCESS_TOKEN }}
+         name: ravesim
