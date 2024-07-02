@@ -6,5 +6,3 @@
 </div>
 
 [Website Documentation](https://giovisca-github.github.io/stupid_library/)
-
-

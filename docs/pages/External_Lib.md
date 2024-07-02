@@ -8,15 +8,15 @@ there are different way to add external library to our library. In any case add 
 
 *example with nlohmann lib*
 
-1. initialize the repository to be a git repo
+1. initialize the project repository to be a git repo
 2.  add the submodule
     ``` bash 
     git submodule add https://github.com/nlohmann/json external/json
     ```
-    this create a .gitmodules where is list the submodule added
+this create a .gitmodules where is list the submodule added
 3. create a cmake folder to store cmake module which are custom cmake function
 4. create a AddGitSubmodule.cmake to manage the submodule with cmake
-5. run the function in the cmakelist.txt 
+5. run the function in the main cmakelist.txt 
 6. now we can link that library to a target
 
 when cloning the repo we have to add the submodules:

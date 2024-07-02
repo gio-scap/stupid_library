@@ -14,7 +14,9 @@
 
 /**
  * @brief Print out hello world and test fmt library.
- *  this shoudl be a longer description of the function saying more stuff about what it does
+ *
+ *  this is be a longer description of the function saying more stuff about what it does
+ *
  * @param text
  *
  *  ### usage
@@ -25,3 +27,5 @@
  * ```
  */
 void print(std::string text);
+
+unsigned int factorial(unsigned int number);

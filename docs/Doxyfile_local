@@ -46,7 +46,7 @@ HAVE_DOT = YES
 DOT_IMAGE_FORMAT = svg
 DOT_TRANSPARENT = YES
 # adding header extension
-HTML_HEADER            = doxygen-custom/header_local.html
+HTML_HEADER            = doxygen-custom/header.html
 
 HTML_EXTRA_FILES       = doxygen-custom/doxygen-awesome-fragment-copy-button.js \
                          doxygen-custom/doxygen-awesome-paragraph-link.js \
@@ -57,6 +57,11 @@ HTML_EXTRA_FILES       = doxygen-custom/doxygen-awesome-fragment-copy-button.js 
 HTML_COLORSTYLE_HUE    = 209
 HTML_COLORSTYLE_SAT    = 255
 HTML_COLORSTYLE_GAMMA  = 113
+
+#--------------------------------------------------------------------------
+# customization of html layout
+# -------------------------------------------------------------------------
+LAYOUT_FILE = doxygen-custom/DoxygenLayout.xml
 
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
