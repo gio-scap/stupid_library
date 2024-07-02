@@ -147,26 +147,26 @@ $(function(){initNavTree('md_pages_2UnitTest.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Unit Test</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md16"></a> We use Catch 2.</p>
-<h1><a class="anchor" id="autotoc_md17"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md19"></a> We use Catch 2.</p>
+<h1><a class="anchor" id="autotoc_md20"></a>
 main CMakeLists.txt</h1>
 <p>we add (append) to the <code>CMAKE_MODULE_PATH</code> variable the location of the modules define inside the Catch2 library to use <code>include(Catch)</code> in the CMakeLists.txt of tests </p><div class="fragment"><div class="line">list(APPEND CMAKE_MODULE_PATH ${catch_SOURCE_DIR}/extras) </div>
 </div><!-- fragment --><ul>
 <li>create a subdirectory called "Test"</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 enable Ctest of cmake</h2>
 <div class="fragment"><div class="line">if(ENABLE_TESTING)</div>
 <div class="line">    include(CTest)</div>
 <div class="line">    enable_testing() # needed to enable the testing</div>
 <div class="line">    add_subdirectory(test)</div>
 <div class="line">endif()</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md19"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md22"></a>
 CMakeLists.txt test</h1>
 <div class="fragment"><div class="line">include(Catch)  </div>
 <div class="line"> </div>
 <div class="line">catch_discover_tests(${TEST_MAIN}) # allow to make the test visible to Ctest</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md20"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md23"></a>
 Ctest</h1>
 <p>It make more easy to run test: go to the build directory and call <code>ctest</code> , this will run all test at once. With the vscode cmake extension this is even more easy since there are buttons that do this </p>
 </div></div><!-- contents -->

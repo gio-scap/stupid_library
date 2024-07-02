@@ -4,7 +4,7 @@ var indexSectionsWithContent =
   1: "cdeglrsu",
   2: "fps",
   3: "v",
-  4: "cdelstuw"
+  4: "cdelostuw"
 };
 
 var indexSectionNames =

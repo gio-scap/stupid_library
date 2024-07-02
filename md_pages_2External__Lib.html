@@ -151,6 +151,8 @@ $(function(){initNavTree('md_pages_2External__Lib.html',''); initResizable(true)
 <ul><ul><li class="level2"><a href="#autotoc_md7">git-submodule</a></li>
 <li class="level2"><a href="#autotoc_md8">Fetch-Content</a></li>
 </ul>
+<li class="level1"><a href="#autotoc_md9">Other ways</a></li>
+<li class="level1"><a href="#autotoc_md10">CPM</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="autotoc_md6"></a></p>
@@ -160,38 +162,58 @@ git-submodule</h2>
 <p><em>example with nlohmann lib</em></p>
 <ol type="1">
 <li>initialize the project repository to be a git repo</li>
-<li>add the submodule <div class="fragment"><div class="line">bash </div>
+<li><p class="startli">add the submodule</p>
+<div class="fragment"><div class="line">bash</div>
 <div class="line">   git submodule add https://github.com/nlohmann/json external/json</div>
-</div><!-- fragment --> this create a .gitmodules where is list the submodule added</li>
+</div><!-- fragment --></li>
+</ol>
+<p>this create a .gitmodules where is list the submodule added</p><ol type="1">
 <li>create a cmake folder to store cmake module which are custom cmake function</li>
 <li>create a AddGitSubmodule.cmake to manage the submodule with cmake</li>
 <li>run the function in the main cmakelist.txt</li>
 <li>now we can link that library to a target</li>
 </ol>
-<p>when cloning the repo we have to add the submodules: </p><div class="fragment"><div class="line">git clone --recursice &lt;github-link&gt;</div>
+<p>when cloning the repo we have to add the submodules:</p>
+<div class="fragment"><div class="line">git clone --recursice &lt;github-link&gt;</div>
 </div><!-- fragment --><p>if we performed a checkout to a specific version this will also made when cloning recursive.</p>
-<p><b>when to use git submodule ??</b></p><ul>
+<p><b>when to use git submodule ??</b></p>
+<ul>
 <li>the library is a github/gitlab repository</li>
 <li>can manage also non cmake library</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md8"></a>
 Fetch-Content</h2>
-<p>is a built in function of cmake, so <b>only work with cmake project</b></p><ol type="1">
-<li>first of all it has to be included: <div class="fragment"><div class="line">include(FetchContent)</div>
-</div><!-- fragment --></li>
-<li>declare the github link of the library <div class="fragment"><div class="line">FetchContent_Declare(&lt;project_name of the repo&#39;s cmakelist.txt&gt; </div>
+<p>is a built in function of cmake, so <b>only work with cmake project</b></p>
+<ol type="1">
+<li>first of all it has to be included:</li>
+</ol>
+<div class="fragment"><div class="line">include(FetchContent)</div>
+</div><!-- fragment --><ol type="1">
+<li><p class="startli">declare the github link of the library</p>
+<div class="fragment"><div class="line">FetchContent_Declare(&lt;project_name of the repo&#39;s cmakelist.txt&gt; </div>
 <div class="line">GIT_REPOSITORY &lt;link github&gt;</div>
 <div class="line">GIT_TAG &lt;tag&gt;</div>
 <div class="line">GIT_SHALLOW TRUE ) ## clone recursive</div>
 </div><!-- fragment --></li>
-<li>Make available to the current project the library <div class="fragment"><div class="line">    FetchContent_MakeAvailable(&lt;project_name of the repo&#39;s cmakelist.txt&gt;)</div>
+<li><p class="startli">Make available to the current project the library</p>
+<div class="fragment"><div class="line">    FetchContent_MakeAvailable(&lt;project_name of the repo&#39;s cmakelist.txt&gt;)</div>
 <div class="line"> </div>
 <div class="line">Fetch content works best with github/gitlab project using cmake. It download the repo inside the build/_deps and build it automatically</div>
 <div class="line"> </div>
 <div class="line">### How to use external libraries in our own Project?</div>
+<div class="line"> </div>
 <div class="line">just link our own camke librart target with the other library</div>
-</div><!-- fragment --> cmake target_link_libraries(&lt;my_lib&gt; &lt;external_lib_name&gt;) ``` </li>
+</div><!-- fragment --><p> cmake target_link_libraries(&lt;my_lib&gt; &lt;external_lib_name&gt;) ```</p>
+</li>
 </ol>
+<h1><a class="anchor" id="autotoc_md9"></a>
+Other ways</h1>
+<h1><a class="anchor" id="autotoc_md10"></a>
+CPM</h1>
+<p>It use fetch content under the hood but it's easier for the user to add library. To use it add the CPM.cmake to the cmake folder of the project.</p>
+<ul>
+<li>It works only with cmake project </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

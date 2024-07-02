@@ -30,23 +30,27 @@ var NAVTREE =
       [ "Nice looking doxygen: Doxygen Awesome", "md_pages_2Documentation.html#autotoc_md4", null ],
       [ "automatically build documentation and post on github pages", "md_pages_2Documentation.html#autotoc_md5", null ]
     ] ],
-    [ "External Library", "md_pages_2External__Lib.html", null ],
+    [ "External Library", "md_pages_2External__Lib.html", [
+      [ "Other ways", "md_pages_2External__Lib.html#autotoc_md9", null ],
+      [ "CPM", "md_pages_2External__Lib.html#autotoc_md10", null ]
+    ] ],
     [ "Linking type", "md_pages_2LinkingType.html", [
-      [ "Dependency Graph", "md_pages_2LinkingType.html#autotoc_md10", null ],
-      [ "Public - Inteface - Private", "md_pages_2LinkingType.html#autotoc_md11", [
-        [ "Public vs Private", "md_pages_2LinkingType.html#autotoc_md12", null ],
-        [ "Interface", "md_pages_2LinkingType.html#autotoc_md13", null ]
+      [ "Dependency Graph", "md_pages_2LinkingType.html#autotoc_md12", null ],
+      [ "Public - Inteface - Private", "md_pages_2LinkingType.html#autotoc_md13", [
+        [ "Public vs Private", "md_pages_2LinkingType.html#autotoc_md14", null ],
+        [ "Interface", "md_pages_2LinkingType.html#autotoc_md15", null ]
       ] ]
     ] ],
+    [ "Link Time Optimization", "md_pages_2LinkTimeOptimization.html", null ],
     [ "Warnings", "md_pages_2Sanitazier.html", [
-      [ "Sanitizer", "md_pages_2Sanitazier.html#autotoc_md15", null ]
+      [ "Sanitizer", "md_pages_2Sanitazier.html#autotoc_md18", null ]
     ] ],
     [ "Unit Test", "md_pages_2UnitTest.html", [
-      [ "main CMakeLists.txt", "md_pages_2UnitTest.html#autotoc_md17", [
-        [ "enable Ctest of cmake", "md_pages_2UnitTest.html#autotoc_md18", null ]
+      [ "main CMakeLists.txt", "md_pages_2UnitTest.html#autotoc_md20", [
+        [ "enable Ctest of cmake", "md_pages_2UnitTest.html#autotoc_md21", null ]
       ] ],
-      [ "CMakeLists.txt test", "md_pages_2UnitTest.html#autotoc_md19", null ],
-      [ "Ctest", "md_pages_2UnitTest.html#autotoc_md20", null ]
+      [ "CMakeLists.txt test", "md_pages_2UnitTest.html#autotoc_md22", null ],
+      [ "Ctest", "md_pages_2UnitTest.html#autotoc_md23", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],

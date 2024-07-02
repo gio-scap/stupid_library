@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stupid_20library_0',['Stupid Library',['../index.html',1,'']]]
+  ['optimization_0',['Link Time Optimization',['../md_pages_2LinkTimeOptimization.html',1,'']]]
 ];
