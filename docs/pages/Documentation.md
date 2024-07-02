@@ -27,3 +27,4 @@ copy all the file inside the repo docs to reuse this template.
 
 ![settings repo pages](docs/img/repo_settings.png)
 
+- change permission to read and write on settings/actions 
