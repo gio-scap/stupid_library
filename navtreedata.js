@@ -25,11 +25,29 @@
 var NAVTREE =
 [
   [ "Stupid Library", "index.html", [
+    [ "Compiler Warnings", "md_pages_2CompilerWarnings.html", null ],
     [ "Create Documentation", "md_pages_2Documentation.html", [
-      [ "Nice looking doxygen: Doxygen Awesome", "md_pages_2Documentation.html#autotoc_md3", null ],
-      [ "automatically build documentation and post on github pages", "md_pages_2Documentation.html#autotoc_md4", null ]
+      [ "Nice looking doxygen: Doxygen Awesome", "md_pages_2Documentation.html#autotoc_md4", null ],
+      [ "automatically build documentation and post on github pages", "md_pages_2Documentation.html#autotoc_md5", null ]
     ] ],
     [ "External Library", "md_pages_2External__Lib.html", null ],
+    [ "Linking type", "md_pages_2LinkingType.html", [
+      [ "Dependency Graph", "md_pages_2LinkingType.html#autotoc_md10", null ],
+      [ "Public - Inteface - Private", "md_pages_2LinkingType.html#autotoc_md11", [
+        [ "Public vs Private", "md_pages_2LinkingType.html#autotoc_md12", null ],
+        [ "Interface", "md_pages_2LinkingType.html#autotoc_md13", null ]
+      ] ]
+    ] ],
+    [ "Warnings", "md_pages_2Sanitazier.html", [
+      [ "Sanitizer", "md_pages_2Sanitazier.html#autotoc_md15", null ]
+    ] ],
+    [ "Unit Test", "md_pages_2UnitTest.html", [
+      [ "main CMakeLists.txt", "md_pages_2UnitTest.html#autotoc_md17", [
+        [ "enable Ctest of cmake", "md_pages_2UnitTest.html#autotoc_md18", null ]
+      ] ],
+      [ "CMakeLists.txt test", "md_pages_2UnitTest.html#autotoc_md19", null ],
+      [ "Ctest", "md_pages_2UnitTest.html#autotoc_md20", null ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [

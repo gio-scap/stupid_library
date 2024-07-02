@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['print_0',['print',['../print_8cpp.html#a3d08354aa242ae61b32dbe0186d919e2',1,'print(std::string text):&#160;print.cpp'],['../print_8hpp.html#a3d08354aa242ae61b32dbe0186d919e2',1,'print(std::string text):&#160;print.cpp']]]
+  ['factorial_0',['factorial',['../stupid__library_8cpp.html#aea62baaa1b97041829042603549ad2e1',1,'factorial(unsigned int number):&#160;stupid_library.cpp'],['../stupid__library_8hpp.html#aea62baaa1b97041829042603549ad2e1',1,'factorial(unsigned int number):&#160;stupid_library.cpp']]]
 ];
