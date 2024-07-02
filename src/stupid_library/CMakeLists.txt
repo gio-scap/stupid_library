@@ -15,3 +15,7 @@ target_link_libraries(${LIB_NAME}
 )
 
 target_set_warnings(${LIB_NAME}  ${ENABLE_WARNINGS} ${ENABLE_WARNINGS_AS_ERROR})
+
+
+# link time optimization
+target_enable_lto(${LIB_NAME} ${ENABLE_LTO})
